@@ -1,0 +1,10 @@
+!DOCTYPE html
+html
+	head
+		title
+	body
+		form
+			fieldset
+				legend
+				label
+				input

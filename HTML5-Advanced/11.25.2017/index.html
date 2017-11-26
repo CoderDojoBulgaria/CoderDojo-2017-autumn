@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Advanced 25.11.2017</title>
+	</head>
+	<body>		
+		<!-- Form creation -->
+		<form method="POST" action="https://www.codehtml.bg/login">
+			<fieldset>
+				<legend>Login Information</legend>
+				<label for="username">Username: </label>
+				<input type="text" name="username" /><br />
+				
+				<label for="password">Password: </label>
+				<input type="password" name="password" /><br />
+			</fieldset>
+			<fieldset>
+				<legend>Additional information</legend>
+				<label for="myCar">My car: </label>
+				<select name="myCar">
+					<optgroup label="Яки коли">
+						<option>BMW</option>
+						<option>Porche</option>
+						<option>Opel</option>
+						<option>Bugatti Veyron</option>
+					</optgroup>
+					<optgroup label="НеЯки коли">
+						<option>+</option>
+						<option>-</option>
+						<option>*</option>
+					</optgroup>
+				</select><br />
+				
+				<label for="description">Description: </label>
+				<textarea name="description"></textarea>
+			</fieldset>
+			
+			<button type="submit">Click Me</button>
+			<br />
+			<input type="submit" value="Log In" />
+		</form>
+	</body>
+</html>
