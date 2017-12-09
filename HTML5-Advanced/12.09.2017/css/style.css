@@ -1,0 +1,23 @@
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    margin: 0px auto;
+    width: 80%;
+    border: 1px solid black;
+}
+
+#article .section {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+    #article .section input {
+        margin: 2px;
+    }
+
+#footer {
+    text-align: center;
+}
